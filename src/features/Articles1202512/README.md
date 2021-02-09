@@ -5,7 +5,7 @@
 Open `/src/navigator/mainNavigator.js` and import the stack navigator defined in `navigator.js`.
 
 ```javascript
-import Articles from "../features/<module_directory>/navigator";
+import Articles from "../features/Articles1202512/navigator";
 ```
 
 And then add it to the navigation:
@@ -24,8 +24,8 @@ Add the module reducer and saga to your `/src/store/index.js` file:
 1. Add the imports
 
 ```javascript
-import articlesReducer from "../features/<module_directory>/store/reducers";
-import articlesSagas from "../features/<module_directory>/store/sagas";
+import articlesReducer from "../features/Articles1202512/store/reducers";
+import articlesSagas from "../features/Articles1202512/store/sagas";
 ```
 
 2. Add the reducer
