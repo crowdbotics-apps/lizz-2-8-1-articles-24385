@@ -17,17 +17,19 @@ import Articles from "../features/Articles1202512/navigator";
 const AppNavigator = {
 
     //@BlueprintNavigationInsertion
+  Articles: {
+    screen: Articles
+  },
+  
 BlankScreen4202923: { screen: BlankScreen4202923Navigator },
 UserProfile3202922: { screen: UserProfile3202922Navigator },
 
     /** new navigators can be added here */
     SplashScreen: {
       screen: SplashScreen
-    },
+    }
   
-  Articles: {
-    screen: Articles
-  }
+  
   
 };
 
